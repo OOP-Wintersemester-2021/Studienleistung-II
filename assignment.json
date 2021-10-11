@@ -1,6 +1,6 @@
 {
     "title": "Studienleistung-I",
-    "abstract": "Das zweite von drei Aufgabenblätter mit dem Sie Ihre Programmierkenntnisse demonstrieren.",
+    "abstract": "Das zweite von drei Aufgabenblätter mit dem Sie Ihre Programmierkenntnisse demonstrieren. In dieser Aufgabe implementieren Sie eine Uhr, die die Zeit in Binärdarstellung zeigt.",
     "hasStarterCode": true,
     "hasSolutionCode": true,
     "solutionComment": "Lösungsvorschlag zur Aufgabenstellung",
