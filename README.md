@@ -48,7 +48,7 @@ Sie implementieren ausgehend von einer leeren *GraphicsApp* die Binäruhr.
 ## Anforderungen
 
 Folgende Anforderungen muss die Binäruhr für diese Aufgabe erfüllen:
-
+* Die Klasse ```BinaryClockApp``` muss als Einstiegspunkt in Ihr Programm verwendet werden
 * Die Darstellung der Binäruhr soll als Grid mit **sechs** Spalten und **vier** Reihen erfolgen
 * Von links nach rechts werden jeweils **zwei** Spalten als **Spaltenpaar** für die Anzeige von Stunden, Minuten und Sekunden benötigt.
 * Die linke Spalte eines Spaltenpaares repräsentiert die Zehnerstelle und die rechte Spalte die Einerstelle (analog zur bekannten Digitaluhr)
