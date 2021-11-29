@@ -1,13 +1,5 @@
 # Studienleistung II: GraphicsApp | Binary Clock
 
-## Wichtige Informationen zur Bearbeitung der Aufgabe
-- [Informationen zur Entwicklungsumgebung *IntelliJ IDEA*](https://elearning.uni-regensburg.de/mod/book/view.php?id=1480675)
-- [Informationen zum Im- und Export von Projekten](https://elearning.uni-regensburg.de/mod/book/view.php?id=1480675&chapterid=51551)
-
-## Starterpaket
-
-Ein vorbereitetes Starterpaket zur selbständigen Implementierung der Aufgabe finden Sie [hier](https://github.com/OOP-Wintersemester-2021/Studienleistung-II-BinaryClock/archive/refs/heads/starter.zip).
-
 ## Allgemeine Hinweise zur Studienleistung
 In dieser Studienleistung werden Sie eine Programmieraufgabe lösen.
 Diese Programmieraufgaben besteht aus einem Projekt
@@ -70,7 +62,7 @@ Folgende Anforderungen muss die Binäruhr für diese Aufgabe erfüllen:
       Interpretiert wäre es die **13.** Stunde, Minute oder Sekunde, weil die linke Spalte (Zehnerspalte) aufsummiert **1** ergibt und die rechte Spalte (Einerspalte) **3** ergibt.
   * Verwendet man **drei** solcher Spaltenpaare kann auf diese Weise demnach die Zeit auf binäre Weise im Format hh:mm:ss dargestellt werden.
 * Laden Sie das Bild in ```data/assets``` als Instanz der Klasse ```Image```, um ein Feld in der Binäruhr zu visualisieren
-* Verwenden Sie die Klasse ```Label```, um die aktuelle Zeit als Digitaluhr über die Binäruhr zu zeichnen
+* Verwenden Sie die Klasse ```Label```, um die aktuelle Zeit als Digitaluhr über die Binäruhr zu zeichnen ![Dokumentation der Klasse Label](https://oop-regensburg.github.io/GraphicsApp-Reborn-Library/html/classde_1_1ur_1_1mi_1_1oop_1_1graphics_1_1_label.html)
 * Verwenden Sie ```LocalDateTime now = LocalDateTime.now();```, um die aktuelle Zeit von Java in der Variable ```now``` zu erhalten
 * Wenden Sie das Prinzip ```Decomposition``` an
 * Verwenden Sie sinnvolle Datenstrukturen (z.B. ```Array``` oder ```Array of Arrays```)
