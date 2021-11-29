@@ -31,7 +31,7 @@ Wir stehen Ihnen dann zeitnah zur Seite über eine Direktnachricht.
 Im Rahmen dieser Aufgabe implementieren Sie eine Uhr, die die aktuelle Uhrzeit in Binärdarstellung anzeigt.
 Über diese Binärdarstellung soll die aktuelle Uhrzeit ebenfalls anhand einer Digitaluhr dargestellt werden.
 
-![Binary Clock](docs/binclock.png)
+![Binary Clock](./docs/binclock.png)
 
 Die Ausgangsbedingung für diese Aufgabe ist wie folgt:
 
@@ -49,7 +49,7 @@ Folgende Anforderungen muss die Binäruhr für diese Aufgabe erfüllen:
     * Von unten nach oben 1, 2, 4, 8
     * bildliches Beispiel:
     
-      ![Binary Clock Spalte](docs/binclockColumn.png)
+      ![Binary Clock Spalte](./docs/binclockColumn.png)
     
       Hier sind die beiden unteren Felder oder Bits der Spalte gesetzt. 
       Das heißt, wenn man jetzt deren Werte aufsummiert
@@ -57,7 +57,7 @@ Folgende Anforderungen muss die Binäruhr für diese Aufgabe erfüllen:
       Der Wert für diese Spalte und die jeweilige Stelle (Zehner- oder Einerstelle), die die Spalte repräsentiert, ist demnach **3**.
     * Beispiel für ein Spaltenpaar, das als Repräsentation von Stunden, Minuten oder Sekunden verwendet werden kann:
       
-      ![Binary Clock Spalte](docs/binclockSeconds.png)
+      ![Binary Clock Spalte](./docs/binclockSeconds.png)
       
       Interpretiert wäre es die **13.** Stunde, Minute oder Sekunde, weil die linke Spalte (Zehnerspalte) aufsummiert **1** ergibt und die rechte Spalte (Einerspalte) **3** ergibt.
   * Verwendet man **drei** solcher Spaltenpaare kann auf diese Weise demnach die Zeit auf binäre Weise im Format hh:mm:ss dargestellt werden.
