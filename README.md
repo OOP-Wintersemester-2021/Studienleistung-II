@@ -62,7 +62,7 @@ Folgende Anforderungen muss die Binäruhr für diese Aufgabe erfüllen:
       Interpretiert wäre es die **13.** Stunde, Minute oder Sekunde, weil die linke Spalte (Zehnerspalte) aufsummiert **1** ergibt und die rechte Spalte (Einerspalte) **3** ergibt.
   * Verwendet man **drei** solcher Spaltenpaare kann auf diese Weise demnach die Zeit auf binäre Weise im Format hh:mm:ss dargestellt werden.
 * Laden Sie das Bild in ```data/assets``` als Instanz der Klasse ```Image```, um ein Feld in der Binäruhr zu visualisieren
-* Verwenden Sie die Klasse ```Label```, um die aktuelle Zeit als Digitaluhr über die Binäruhr zu zeichnen ![Dokumentation der Klasse Label](https://oop-regensburg.github.io/GraphicsApp-Reborn-Library/html/classde_1_1ur_1_1mi_1_1oop_1_1graphics_1_1_label.html)
+* Verwenden Sie die Klasse ```Label```, um die aktuelle Zeit als Digitaluhr über die Binäruhr zu zeichnen [Dokumentation der Klasse Label](https://oop-regensburg.github.io/GraphicsApp-Reborn-Library/html/classde_1_1ur_1_1mi_1_1oop_1_1graphics_1_1_label.html)
 * Verwenden Sie ```LocalDateTime now = LocalDateTime.now();```, um die aktuelle Zeit von Java in der Variable ```now``` zu erhalten
 * Wenden Sie das Prinzip ```Decomposition``` an
 * Verwenden Sie sinnvolle Datenstrukturen (z.B. ```Array``` oder ```Array of Arrays```)
