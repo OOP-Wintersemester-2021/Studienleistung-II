@@ -62,7 +62,7 @@ Folgende Anforderungen muss die Binäruhr für diese Aufgabe erfüllen:
       Interpretiert wäre es die **13.** Stunde, Minute oder Sekunde, weil die linke Spalte (Zehnerspalte) aufsummiert **1** ergibt und die rechte Spalte (Einerspalte) **3** ergibt.
   * Verwendet man **drei** solcher Spaltenpaare kann auf diese Weise demnach die Zeit auf binäre Weise im Format hh:mm:ss dargestellt werden.
 * Laden Sie das Bild in ```data/assets``` als Instanz der Klasse ```Image```, um ein Feld in der Binäruhr zu visualisieren
-* Verwenden Sie die Klasse ```Label```, um die aktuelle Zeit als Digitaluhr über die Binäruhr zu zeichnen [Dokumentation der Klasse Label](https://oop-regensburg.github.io/GraphicsApp-Reborn-Library/html/classde_1_1ur_1_1mi_1_1oop_1_1graphics_1_1_label.html)
+* Verwenden Sie die Klasse ```Label```, um die aktuelle Zeit als Digitaluhr über die Binäruhr zu zeichnen ([Dokumentation der Klasse Label](https://oop-regensburg.github.io/GraphicsApp-Reborn-Library/html/classde_1_1ur_1_1mi_1_1oop_1_1graphics_1_1_label.html))
 * Verwenden Sie ```LocalDateTime now = LocalDateTime.now();```, um die aktuelle Zeit von Java in der Variable ```now``` zu erhalten
 * Wenden Sie das Prinzip ```Decomposition``` an
 * Verwenden Sie sinnvolle Datenstrukturen (z.B. ```Array``` oder ```Array of Arrays```)
@@ -76,7 +76,17 @@ Folgende Anforderungen muss die Binäruhr für diese Aufgabe erfüllen:
   seconds = now.getSecond();
   ```
 * Machen Sie sich vertraut mit den konkreten Unterschieden der Divisionsoperatorn ```/``` und ```%```, um die Zehner- und Einerstellen aus ```hours, minutes, seconds``` zu speichern 
-* Denken Sie daran, dass Sie Variablen des Datentyps ```int``` an Objekte des Typs ```String``` anhängen können (```+```-Operator). Das gilt auch für leere Objekte des Typs ```String``` (```""```)
+* Denken Sie daran, dass Sie Variablen des Datentyps ```int``` an Objekte des Typs ```String``` anhängen können (```+```-Operator). Das gilt auch für leere Objekte des Typs ```String``` (```""```) ([Dokumentation der Klasse String](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html))
+  * Beispiel: Die Variable `str` speichert einen leeren String (`""`). "Addiert" bzw. fügt man nun z.B. eine Variable des Typs `int`, `float`, `String` hinzu (`+`-Operator), dann steht in der der Variable `str` der ursprüngliche Wert von `str` mit dem Wert der anderen Variable hinzugefügt.
+  * ```java
+        String str = "";
+        str += 5;
+        // str hat den Wert "5";
+        str += 5.5f;
+        // str hat den Wert "55.5"
+        str += "Hello World";
+        // str hat den Wert "55.5Hello World"
+    ```
 * Die Farbe der Digitaluhr über der Binäruhr ist *Neon Pink* mit RGB: 254, 1, 154.
 
 ## Ideen für Erweiterungen
