@@ -78,7 +78,7 @@ Folgende Anforderungen muss die Binäruhr für diese Aufgabe erfüllen:
 * Machen Sie sich vertraut mit den konkreten Unterschieden der Divisionsoperatorn ```/``` und ```%```, um die Zehner- und Einerstellen aus ```hours, minutes, seconds``` zu speichern 
 * Denken Sie daran, dass Sie Variablen des Datentyps ```int``` an Objekte des Typs ```String``` anhängen können (```+```-Operator). Das gilt auch für leere Objekte des Typs ```String``` (```""```) ([Dokumentation der Klasse String](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html))
   * Beispiel: Die Variable `str` speichert einen leeren String (`""`). "Addiert" bzw. fügt man nun z.B. eine Variable des Typs `int`, `float`, `String` hinzu (`+`-Operator), dann steht in der der Variable `str` der ursprüngliche Wert von `str` und der Wert der anderen Variable, welcher an das vorherige Ende von `str` angefügt wurde.
-  * ```java
+  ```java
         String str = "";
         str += 5;
         // str hat den Wert "5";
