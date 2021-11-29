@@ -68,7 +68,7 @@ Folgende Anforderungen muss die Binäruhr für diese Aufgabe erfüllen:
 * Verwenden Sie sinnvolle Datenstrukturen (z.B. ```Array``` oder ```Array of Arrays```)
 
 ## Hinweise
-* Benutzen Sie ```now```, um die Stunden, Minuten und Sekunden als Integers (```int```) zu speichern:
+* Benutzen Sie das Objeckt der Klasse LocalDateTime (oben gennant ```now```), um die Stunden, Minuten und Sekunden als Integers (```int```) zu speichern:
 
   ```java
   hours   = now.getHour();
@@ -77,7 +77,7 @@ Folgende Anforderungen muss die Binäruhr für diese Aufgabe erfüllen:
   ```
 * Machen Sie sich vertraut mit den konkreten Unterschieden der Divisionsoperatorn ```/``` und ```%```, um die Zehner- und Einerstellen aus ```hours, minutes, seconds``` zu speichern 
 * Denken Sie daran, dass Sie Variablen des Datentyps ```int``` an Objekte des Typs ```String``` anhängen können (```+```-Operator). Das gilt auch für leere Objekte des Typs ```String``` (```""```) ([Dokumentation der Klasse String](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html))
-  * Beispiel: Die Variable `str` speichert einen leeren String (`""`). "Addiert" bzw. fügt man nun z.B. eine Variable des Typs `int`, `float`, `String` hinzu (`+`-Operator), dann steht in der der Variable `str` der ursprüngliche Wert von `str` mit dem Wert der anderen Variable hinzugefügt.
+  * Beispiel: Die Variable `str` speichert einen leeren String (`""`). "Addiert" bzw. fügt man nun z.B. eine Variable des Typs `int`, `float`, `String` hinzu (`+`-Operator), dann steht in der der Variable `str` der ursprüngliche Wert von `str` und der Wert der anderen Variable, welcher an das vorherige Ende von `str` angefügt wurde.
   * ```java
         String str = "";
         str += 5;
